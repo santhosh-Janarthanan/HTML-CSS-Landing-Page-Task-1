@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth a {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.auth .login {
+    color: #FF7A59;
+}
+
+.auth .signup {
+    background-color: #FF7A59;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1920px;
+    max-height: 999px;
+    background-color: #f6f8f9;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero-text span {
+    color: #FF7A59;
+}
+
+.hero-text p {
+    margin: 20px 0;
+}
+
+.hero-text .btn {
+    background-color: transparent;
+    color: #FF7A59;
+    border: 2px solid #FF7A59;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image img {
+    max-width: 300px;
+}
+
+.badge {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.things{
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 1920px;
+    max-height: 724px;
+    background-color: #fff;
+}
+
+.things h2{
+    font-size: 2.5rem;
+}
+.things span{
+    color: #FF7A59;
+}
+
+.things_cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.things_card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 370px;
+    max-height: 278px;
+    text-align: left;
+    overflow: hidden;
+}
+.things_card1 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 370px;
+    max-height: 278px;
+    text-align: left;
+    overflow: hidden;
+}
+.things_card2 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 370px;
+    max-height: 278px;    
+    text-align: left;
+    overflow: hidden;
+}
+
+
+.deals {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 1920px;
+    max-height: 960px;
+    background-color: #fff;
+}
+
+.deals h2 {
+    font-size: 2.5rem;
+}
+
+.deals span {
+    color: #FF7A59;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.price del {
+    color: red;
+}
+
+.vacation {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 1920px;
+    max-height: 893px;
+    background-color: #fff;
+}
+
+.vacation h2 {
+    font-size: 2.5rem;
+}
+
+.vacation span {
+    color: #FF7A59;
+}
+
+.Vcards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.Vcard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.Vcard img {
+    width: 100%;
+    height: auto;
+}
+
+.Vcard-content {
+    padding: 20px;
+}
+
+/* Blog Section */
+.blog-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.blog-section .highlight {
+    color: #ff7a1a;
+}
+.blog-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.blog-item {
+    text-align: center;
+    width: 200px;
+}
+.blog-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+.blog-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.blog-item span {
+    color: gray;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    padding: 40px;
+    text-align: left;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.testimonial-section h2 {
+    font-size: 2em;
+}
+.testimonial-section .highlight {
+    color: #ff7a1a;
+}
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.testimonial-item {
+    width: 60%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    font-style: italic;
+}
+.testimonial-item .name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.navigation button {
+    border: none;
+    background-color: #ff7a1a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Subscribe Section */
+.subscribe-section {
+    padding: 40px;
+    background-color: #ff7a1a;
+    text-align: center;
+}
+.subscribe-section h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+.subscribe-section form {
+    display: inline-block;
+}
+.subscribe-section input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.subscribe-section button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff7a1a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer Info */
+.footer-info {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+}
+.footer-brand {
+    width: 30%;
+}
+.footer-brand h3 {
+    margin-bottom: 10px;
+}
+.footer-brand p {
+    margin-bottom: 20px;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+.footer-links ul {
+    list-style: none;
+}
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+.footer-links ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons a {
+    background-color: #ff7a1a;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
