@@ -376,3 +376,21 @@ body {
     border-radius: 50%;
     text-decoration: none;
 }
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+    /* Tablet-specific adjustments */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .things_cards, .cards, .Vcards, .blog-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile-specific adjustments */
+    .navbar ul {
+        display: none;
